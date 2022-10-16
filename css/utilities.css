@@ -1,4 +1,3 @@
-
 /* Icons */
 
 .right-arrow-icon {
@@ -44,6 +43,7 @@ a.icon-link:hover {
 
 .nav-title-link:hover {
   text-decoration: underline;
+  transform: scale(1.1);
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
@@ -73,6 +73,7 @@ a.button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 
@@ -96,6 +97,7 @@ a.no-underline {
 a.no-underline:hover {
   text-decoration: underline;
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
