@@ -50,8 +50,15 @@ a.icon-link:hover {
 }
 
 .nav-title-link:hover {
-  text-decoration: underline;
   transform: scale(1.1);
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+.nav-title-link:active {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
@@ -69,6 +76,7 @@ a.button {
   padding: 8px 16px;
   border: 3px solid #141414;
   border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   color: black;
   text-decoration: none;
   width: fit-content;
@@ -78,13 +86,17 @@ a.button {
 }
 
 a.button:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   cursor: pointer;
   transform: scale(1.1);
   transition: transform 200ms ease-in-out;
 }
 
+a.button:active {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scale(0.9);
+  transition: transform 200ms ease-in-out;
+}
 
 /* Footer Styling */
 
