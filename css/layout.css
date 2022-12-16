@@ -171,6 +171,10 @@ body {
       width: calc((100% - 16px) / 2);
     }
 
+    .gallery-image-container.third-width {
+      width: calc((96% - 16px) / 3);
+    }
+
     .gallery-image {
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
       width: 100%;
