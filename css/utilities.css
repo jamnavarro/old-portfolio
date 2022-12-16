@@ -27,7 +27,14 @@ a.icon-link:hover {
   cursor: pointer;
   stroke-width: 5;
   margin: 0;
-  transform: rotate(15deg);
+  transform: scale(0.9);
+  transition: transform 200ms ease-in-out;
+}
+
+a.icon-link:active {
+  transform: scale(0.8);
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
 }
 
 
@@ -50,7 +57,7 @@ a.icon-link:hover {
 }
 
 .nav-title-link:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   cursor: pointer;
   transition: transform 200ms ease-in-out;
 }
@@ -65,7 +72,7 @@ a.icon-link:hover {
 @media only screen and (max-width: 800px) {
   .navbar {
     padding: 20px 20px;
-    background-color: whitesmoke
+    background-color: whitesmoke;
   }
 }
 
@@ -80,8 +87,9 @@ a.button {
   text-decoration: none;
   width: fit-content;
   display: flex;
-  gap: 5px;
-  align-items: center;
+  gap: 10px;
+  align-items: left;
+  background-color: whitesmoke;
 }
 
 a.button:hover {
@@ -106,6 +114,7 @@ a.button:active {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  background-color:gainsboro;
 }
 
 /* Link Styling */

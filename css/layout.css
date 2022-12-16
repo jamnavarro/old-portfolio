@@ -13,7 +13,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: whitesmoke;
+  /* background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:bottom; */
+  background-color:whitesmoke;
 }
 
 
