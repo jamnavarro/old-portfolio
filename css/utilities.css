@@ -7,8 +7,8 @@
 }
 
 .footer-icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .case-study-icon {
@@ -84,31 +84,16 @@ a.icon-link:active {
 
 a.button {
   padding: 8px 30px;
-  border: 3px solid #141414;
-  filter: drop-shadow(12px 12px 5px rgba(0,0,0,0.24));
-  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
   color: black;
   text-decoration: none;
   width: fit-content;
   display: flex;
   gap: 50px;
-  align-items: left;
-  background-color: whitesmoke;
+  align-items: top;
 }
 
 a.button:hover {
-  filter: drop-shadow(12px 12px 5px rgba(0,0,0,0.24));
-  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
   cursor: pointer;
-  transform: scale(0.95);
-  transition: transform 200ms ease-in-out;
-}
-
-a.button:active {
-  filter: drop-shadow(12px 12px 5px rgba(0,0,0,0.24));
-  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
-  transform: scale(0.9);
-  transition: transform 200ms ease-in-out;
 }
 
 /* Footer Styling */
@@ -116,11 +101,9 @@ a.button:active {
 #footer {
   width: 100%;
   display: flex;
-  padding: 30px 50px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  background-color:gainsboro;
+  justify-content: left;
+  align-items: left;
+  gap: 26px;
 }
 
 /* Link Styling */
