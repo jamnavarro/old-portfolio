@@ -14,26 +14,37 @@
 		<script defer src="./js/script.js"></script>
 	</head>
 	<body>
+
     <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <span class="nav-title">
-          <image src="./assets/images/icon.png"></image>
-        </span>
-        <a class="button" id="my-work-link">
-          <span class="button-text">projects</span>
+    <nav class="navbar">
+      <logo class="logo-container">
+        <a class="icon-logo" href="./index.html">
+          <image src="./assets/images/icon.png" class="icon-logo"/>
         </a>
-        <a class="button" id="my-work-link" href="./project-pages/portfolio.html">
-          <span class="button-text">illustration portfolio</span>
-        </a>
-        <a class="button" id="my-resume-link" href="./project-pages/resume.html">
-          <span class="button-text">resume</span>
-        </a>
-        <a class="button" href="mailto:jamsnavarro1@gmail.com">
-          <span class="button-text">email me!</span>
-        </a>
-      </a>
-    </div>
+      </logo>
+
+      <ul id="nav-list" class="nav-menu">
+        <li class="menu-item">
+          <a href="./index.html">home</a>
+        </li>
+        <li class="menu-item">
+          <a href="./project-pages/portfolio.html">illustration portfolio</a>
+        </li>
+        <li class="menu-item">
+          <a href="./project-pages/resume.html">resume</a>
+        </li>
+        <li class="menu-item">
+          <a href="mailto:jamsnavarro1@gmail.com">contact</a>
+        </li>
+      </ul>
+
+      <dropdown-icon id="nav-toggle" class="menu-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </dropdown-icon>
+
+    </nav>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
