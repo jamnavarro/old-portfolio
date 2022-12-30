@@ -235,13 +235,19 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   #main-content {
     margin: 125px 20px;
   }
 
   .project-card {
     max-width: 100%;
+  }
+
+  .project-image {
+    width: 50%;
+    object-fit:contain;
+    object-position: center;
   }
 }
 
