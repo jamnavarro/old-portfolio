@@ -232,6 +232,10 @@ body {
   .project-card {
     max-width: calc((100% - 16px) / 2);
   }
+
+  .project-image {
+    display:none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */
@@ -246,8 +250,6 @@ body {
 
   .project-image {
     display:none;
-    object-fit:contain;
-    object-position: center;
   }
 }
 
