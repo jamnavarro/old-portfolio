@@ -245,7 +245,7 @@ body {
   }
 
   .project-image {
-    width: 50%;
+    display:none;
     object-fit:contain;
     object-position: center;
   }
